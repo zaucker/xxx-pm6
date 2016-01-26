@@ -13,7 +13,5 @@ Perl 6 Implementation of XXX.pm.
 
 == INSTALLATION
 
-With a fresh copy of http://github.com/masak/ufo
-
-    > ufo && make test install purge
+panda install XXX
 
