@@ -2,6 +2,7 @@ language: perl6
 perl6:
     - latest
 install:
+    - export PATH=$PATH:inst#/home/travis/.rakudobrew/moar-nom/install/share/perl6/site/bin
     - rakudobrew build panda
     # Pull in the dependencies before running tests
     - panda installdeps .
